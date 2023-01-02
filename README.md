@@ -1,3 +1,34 @@
+# First-Paper
+
+First Paper is a place where students, professors, researchers,                   learners or anyone who aims to write a research paper and is unsure about the domain, subject or topic to choose or wants to gather existing research work and can get suggestions based on their search queries run through our ML model.
+
+## Live Version
+Click [Here](https://first-paper.vercel.app/)
+
+## Tech Stack
+1. Frontend
+    a. Next.js (React.js)
+    b. Tailwind CSS
+2. Backend
+    a. Mongo DB if required
+3. ML Model
+    a. Python (Pandas, ..)
+    b. Tensorflow JS, Python
+    c. ...
+4. Dataset
+    a. (Kaggle)[kaggle-link]
+
+<!-- ## Research Paper Published -->
+<!-- Click [Here]() -->
+
+## Authors
+
+1. Mokshit Surana - (connect)[linkedin-link]
+2. Archit Rathod - (connect)[linkedin-link]
+
+
+<!-- Next js default readme -->
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
