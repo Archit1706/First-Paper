@@ -17,12 +17,17 @@ export default function Home() {
       </Head>
 
       <Navbar />
+
       <Main />
+
       <Papers />
+
       <About />
+
       <Contact />
-      <Footer />
       
+      <Footer />
+
     </div>
   )
 }
