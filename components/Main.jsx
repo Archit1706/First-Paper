@@ -25,7 +25,7 @@ const Main = () => {
     return (
         <div
             id="home"
-            className="text-gray-600 rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2"
+            className="text-gray-600 rounded px-8 pt-40 md:pt-24 pb-8 mb-4 flex flex-col my-2"
         >
             <div className="App">
                 <h1 className="text-3xl font-bold text-center mb-4">

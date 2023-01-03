@@ -328,7 +328,10 @@ const team = [
         img: "",
     }
 ]
-
+const projectLinks = {
+    web: "https://first-paper.vercel.app/",
+    github: "https://github.com/Archit1706/First-Paper"
+}
 const papers = [
     {
         'id': '0704.0001',
@@ -401,4 +404,4 @@ const papers = [
 
 ]
 
-export { name, tagline, categoryMap, categories, team, papers };
+export { name, tagline, categoryMap, categories, team, projectLinks, papers };
