@@ -1,5 +1,6 @@
 const name = "First Paper"
 const tagline = "Write something new everyday!"
+const about = "is a place where students, professors, researchers, learners or anyone who aims to write a research paper and is unsure about the domain, subject or topic to choose or wants to gather existing research work and can get suggestions based on their search queries run through our ML model."
 const categoryMap = {
     'astro-ph': 'Astrophysics',
     'astro-ph.CO': 'Cosmology and Nongalactic Astrophysics',
@@ -332,7 +333,7 @@ const projectLinks = {
     web: "https://first-paper.vercel.app/",
     github: "https://github.com/Archit1706/First-Paper"
 }
-const papers = [
+const fetchedPapers = [
     {
         'id': '0704.0001',
         'submitter': 'Pavel Nadolsky',
@@ -404,4 +405,4 @@ const papers = [
 
 ]
 
-export { name, tagline, categoryMap, categories, team, projectLinks, papers };
+export { name, tagline, about, categoryMap, categories, team, projectLinks, fetchedPapers };

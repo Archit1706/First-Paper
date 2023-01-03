@@ -18,13 +18,16 @@ const Contact = () => {
         <section id="contact" className="text-gray-600 relative pt-24 md:pt-0">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col text-center w-full mb-12">
-                    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+                    <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4">
                         Contact Us
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
                         Want to suggest changes or submit a your research paper?
                     </p>
                     <p>Feel free to contact us.</p>
+                    <div className="flex mt-6 justify-center">
+                        <div className="w-16 h-1 rounded-full bg-green-500 inline-flex"></div>
+                    </div>
                 </div>
 
                 <form className="lg:w-1/2 md:w-2/3 mx-auto">

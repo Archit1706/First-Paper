@@ -7,7 +7,7 @@ const Navbar = () => {
 
     useEffect(() => {
         const handleShadow = () => {
-            if (window.scrollY >= 80) setShadow(true);
+            if (window.scrollY >= 30) setShadow(true);
             else setShadow(false);
         };
         window.addEventListener("scroll", handleShadow);
@@ -17,11 +17,11 @@ const Navbar = () => {
         <div
         className={
             shadow
-                ? "fixed w-full h-40 md:h-20 shadow-xl z-[100] bg-[#ecf0f3] -mt-2 mb-2"
+                ? "fixed w-full h-50 sm:h-40 md:h-20 shadow-xl z-[100] bg-[#ecf0f3] -mt-2 mb-2"
                 : "fixed w-full h-20 z-[100] bg-[#ecf0f3] -mt-2 mb-20"
         }
         >
-            <header className="text-gray-600">
+            <header className="text-gray-600 border-b border-gray-300">
                 <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
                         href="#home"
