@@ -58,4 +58,15 @@ html {
     ::-webkit-scrollbar-thumb:hover {
         background: linear-gradient(0deg, #00b09b, #96c93d);
     }
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        cursor: pointer;
+        border-radius: 4px;
+        margin-right: 2px;
+        opacity: 0.6;
+        filter: invert(0.8);
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator:hover {
+        opacity: 1;
+    }
 }

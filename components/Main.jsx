@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { categories } from "../data";
+import { categories, categoryMap } from "../data";
 import Typewriter from "typewriter-effect";
 
 const Main = () => {
@@ -78,18 +78,19 @@ const Main = () => {
                 <div className="md:w-full px-3">
                     <label
                         className="block leading-7 text-sm text-gray-600"
-                        htmlFor="grid-state"
                     >
                         Subjects
                     </label>
                     <div className="relative">
                         <select
-                            className="block appearance-none w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                            className="block appearance-none w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out cursor-pointer"
+                            name="subject"
                             onChange={changeHandler}
+                            title="Select a subject"
                         >
                             <option></option>
                             {categories.map((value, index) => {
-                                return <option key={index}>{value}</option>;
+                                return <option className="cursor-pointer text-gray-800 font-medium" key={index}>{value}</option>;
                             })}
                         </select>
                     </div>
@@ -104,7 +105,7 @@ const Main = () => {
                         Start Date
                     </label>
                     <input
-                        className="appearance-none block w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        className="appearance-none block w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out "
                         type="date"
                         name="startDate"
                         placeholder="01-01-1990"
