@@ -23,8 +23,8 @@ Click [Here](https://first-paper.vercel.app/)
 
 ## Authors
 
-1. Mokshit Surana - (connect)[linkedin-link]
-2. Archit Rathod - (connect)[linkedin-link]
+1. Mokshit Surana - [linkedin-link](connect)
+2. Archit Rathod - [linkedin-link](connect)
 
 
 <!-- Next js default readme -->
