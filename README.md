@@ -26,6 +26,12 @@ Click [Here](https://first-paper.vercel.app/)
 1. Mokshit Surana - [linkedin-link](connect)
 2. Archit Rathod - [linkedin-link](connect)
 
+## Screenshots
+
+![image](https://github.com/Archit1706/First-Paper/assets/75872913/b4d4aaa7-72d3-4385-990c-173c4b7af2ec)
+
+![image](https://github.com/Archit1706/First-Paper/assets/75872913/dc645b19-088f-4c06-a91a-e75ef50a9880)
+
 
 <!-- Next js default readme -->
 
